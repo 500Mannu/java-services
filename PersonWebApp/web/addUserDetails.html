@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>User details</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>Extract citizen details</p>
+        <form action="AddUserDetailsServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>SA ID number</td>
+                    <td><input type="text" name="idno" required="" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Enter" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
